@@ -10,12 +10,14 @@ import { AngularFireModule } from 'angularfire2';
 import { config } from '../environments/firebase.config';
 import { AngularFireAuth } from 'angularfire2/auth';
 import { CommonModule } from '@angular/common';
+import { TestComponent } from './test/test.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginTestComponent
+    LoginTestComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
