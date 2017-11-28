@@ -1,0 +1,8 @@
+<div class="container">
+  <button class="btn btn-primary" (click)="loginWithGoogle()">login with google</button>
+  <button class="btn btn-primary" (click)="logout()">logout</button>
+  <div class="row">
+    <img [src]="user.photoURL | async" alt="{{ user.name }}">
+    <img src="https://lh6.googleusercontent.com/-KmF0BNODDcY/AAAAAAAAAAI/AAAAAAAAAGE/l1MP6QV--MM/photo.jpg" alt="">
+  </div>
+</div>
