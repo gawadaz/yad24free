@@ -13,6 +13,8 @@ import { CommonModule } from '@angular/common';
 import { TestComponent } from './test/test.component';
 import { Test2Component } from './test2/test2.component';
 import { ItemComponent } from './test2/item/item.component';
+import { ProductListComponent } from './product-list/product-list.component';
+import { ProductComponent } from './product-list/product/product.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { ItemComponent } from './test2/item/item.component';
     LoginTestComponent,
     TestComponent,
     Test2Component,
-    ItemComponent
+    ItemComponent,
+    ProductListComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,27 @@
+<div class="row product_item">
+    <div class="product_sale" *ngIf="product.isNew">
+        <p>מוצר חדש</p>
+    </div>
+    <div class="col-md-4">
+      <img src="{{ photoURL }}" alt="img" class="item-img">
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-xs-6"><h3>{{ product.title }}</h3></div>
+        <div class="col-xs-6">
+            <div class="product_buttons">
+                <button class="product_heart"><i class="glyphicon glyphicon-heart-empty"></i></button>
+                <button class="product_compare"><i class="glyphicon glyphicon-random"></i></button>
+                <button class="add_to_cart"><i class="glyphicon glyphicon-shopping-cart"></i></button>
+              </div>
+        </div>
+      </div>    
+      <div class="product_price">
+        <span class="label label-default">{{ product.cost }}</span>
+      </div>
+      <p>
+          {{ product.description }}
+      </p>
+    </div>
+  </div>
+  
