@@ -13,8 +13,10 @@ import { CommonModule } from '@angular/common';
 import { TestComponent } from './test/test.component';
 import { Test2Component } from './test2/test2.component';
 import { ItemComponent } from './test2/item/item.component';
-import { ProductListComponent } from './product-list/product-list.component';
-import { ProductComponent } from './product-list/product/product.component';
+import { ProductListComponent } from './products/product-list/product-list.component';
+import { ProductComponent } from './products/product-list/product/product.component';
+import { ProductsComponent } from './products/products.component';
+import { FiltersComponent } from './products/filters/filters.component';
 
 
 @NgModule({
@@ -25,7 +27,9 @@ import { ProductComponent } from './product-list/product/product.component';
     Test2Component,
     ItemComponent,
     ProductListComponent,
-    ProductComponent
+    ProductComponent,
+    ProductsComponent,
+    FiltersComponent
   ],
   imports: [
     BrowserModule,
